@@ -13,4 +13,7 @@ target_link_libraries(kmsview kms++ kmstest ${LIBDRM_LIBRARIES})
 add_executable (kmsprint kmsprint.cpp)
 target_link_libraries(kmsprint kms++ ${LIBDRM_LIBRARIES})
 
+add_executable (kmscapture kmscapture.cpp)
+target_link_libraries(kmscapture kms++ kmstest ${LIBDRM_LIBRARIES})
+
 add_executable (optiontester optiontester.cpp)
