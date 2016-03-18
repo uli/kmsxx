@@ -5,6 +5,7 @@
 #include <set>
 
 #include <kms++.h>
+#include <omap/omapkms++.h>
 #include <modedb.h>
 
 #include <kms++util.h>

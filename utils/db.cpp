@@ -8,6 +8,7 @@
 
 #include <kms++.h>
 #include <kms++util.h>
+#include <omap/omapkms++.h>
 
 using namespace std;
 using namespace kms;
